@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<WorkstationsLogins>
+		<!--Lio Client configuration depending to each login -->
+		<LOCATIONS>
+		<place>Add Logical Group</place>
+		<place>Add Logical Group</place>
+		<place>Spare Configuration</place>
+		</LOCATIONS>
+		<Logical_Group1>
+				<User>
+					<Name>Name and Surname of Operator</Name> 
+					<ID>Username</ID>
+					<Infotype>Type of Access(Shared/Private)</Infotype>
+				</User>
+				<!-- Info Station name has to match with shortcut on C:\IS folder -->
+				<Alternative_Config>
+					<ID>Link to an alternative configuration</ID>
+				</Alternative_Config>
+		</Logical_Group1>
+		<Logical_Group2>
+				<!-- Info Station name has to match with shortcut on C:\IS folder -->
+				<User>
+					<Name>Name and Surname of Operator</Name>
+					<ID>Username</ID>
+					<Infotype>Private</Infotype>
+					<InfoID>Name of Tool to be linked to desktop</InfoID>
+				</User>
+		</Logical_Group2>
+</WorkstationsLogins>
